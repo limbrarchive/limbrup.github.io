@@ -1,6 +1,6 @@
 ---
 title: Limbr Blog
-timezone: UTC
+timezone: Australia/Melbourne
 collections:
   posts:
     title: Posts
