@@ -22,6 +22,6 @@ defaults:
     layout: page
 permalink: "/:year/:month/:day/:title.html"
 gems:
-  - jekyll-paginate
+- jekyll-paginate
 paginate: 20
 paginate_path: "/posts/:num/"
