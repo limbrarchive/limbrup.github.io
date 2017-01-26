@@ -20,4 +20,8 @@ defaults:
     type: pages
   values:
     layout: page
-permalink: pretty
+permalink: "/:year/:month/:day/:title.html"
+gems:
+  - jekyll-paginate
+paginate: 20
+paginate_path: "/posts/:num/"

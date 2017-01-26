@@ -4,3 +4,12 @@ date: 2017-01-26 15:11:00 +11:00
 ---
 
 A home page of sorts. And editable via GitHub?
+
+<ul>
+{% for post in paginator.posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <span class="date">{{ post.date | date: "%-d %B, %Y" }}</span>
+  </li>
+{% endfor %}
+</ul>
